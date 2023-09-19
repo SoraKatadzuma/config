@@ -1,0 +1,17 @@
+project:
+  name: config
+  gpid: SoraKatadzuma
+  semv: 0.0.1-alpha+dev
+  desc: Configuration headers inspired by Boost::Config for my own projects
+  home: https://github.com/SoraKatadzuma/config
+  issues: https://github.com/SoraKatadzuma/config/issues
+  license: MIT
+  author:
+  - John Christman sorakatadzuma@gmail.com
+
+targets:
+- name: config
+  type: interface
+  search:
+    include:
+    - source
